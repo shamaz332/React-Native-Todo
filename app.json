@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "travelguide",
-    "slug": "travelguide",
+    "name": "todo",
+    "slug": "todo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
