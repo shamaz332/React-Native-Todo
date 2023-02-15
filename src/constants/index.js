@@ -24,4 +24,14 @@ const FONTS = {
   },
 };
 
-export { COLORS, SIZES, FONTS };
+const SHADOW = {
+  elevation: 5,
+  shadowColor: COLORS.secondary,
+  shadowOffset: {
+    width: 2,
+    height: 12,
+  },
+  shadowRadius: 12,
+};
+
+export { COLORS, SIZES, FONTS, SHADOW };

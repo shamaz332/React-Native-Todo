@@ -1,21 +1,15 @@
 import React from "react";
 import Checkbox from "expo-checkbox";
 import { View, Text, StyleSheet } from "react-native";
-import { COLORS, FONTS, SIZES } from "../constants";
+import { COLORS, FONTS, SHADOW, SIZES } from "../constants";
 
 const styles = StyleSheet.create({
   view: {
+    ...SHADOW,
     width: "100%",
     paddingHorizontal: SIZES.padding,
     paddingVertical: 12,
     borderRadius: SIZES.borderRadius,
-    elevation: 12,
-    shadowColor: COLORS.secondary,
-    shadowOffset: {
-      width: 2,
-      height: 12,
-    },
-    shadowRadius: 12,
     flexDirection: "row",
     alignItems: "center",
     backgroundColor: COLORS.secondary,
